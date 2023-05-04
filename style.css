@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Raleway:wght@200&display=swap");
+
+body {
+  background-color: #6495ed;
+}
+/* Styling for the card */
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 350px;
+  width: 200px;
+  padding: 50px;
+  align-items: center;
+  margin: 5% auto;
+}
+
+/* Styling for the card title */
+.card-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+/* Styling for the card content */
+.card-content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+/* Styling for the card image */
+.card-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./image-qr-code.png");
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.attribution {
+  font-size: medium;
+}
