@@ -1,0 +1,1 @@
+# QR_Scanner_From_Frontend
